@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.carousel-item-img:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.7);
+  }
+  .on-btn{
+    background-image: linear-gradient(45deg, rgb(3, 40, 246), rgb(19,184,252));
+    border: 0;
+    color: white;
+    font-weight: 700;
+    padding: 10px 15px;
+  }
+
+  h2,h3,h4,p {
+     color: rgb(93, 92, 92);
+  }
+  .bg-on-primary{
+    background-image: linear-gradient(45deg, rgb(19,184,252), rgb(3, 40, 246));
+  }
+  .bg-on-black{
+    background-color: rgb(93, 92, 92) ;
+  }
